@@ -20,4 +20,12 @@ public class AinuParsledzejaFunkcija : MonoBehaviour
     {
         SceneManager.LoadScene("Galvena", LoadSceneMode.Single);
     }
+    public void uzMeiteni()
+    {
+        SceneManager.LoadScene("Meitene", LoadSceneMode.Single);
+    }
+    public void uzZenu()
+    {
+        SceneManager.LoadScene("Zens", LoadSceneMode.Single);
+    }
 }
