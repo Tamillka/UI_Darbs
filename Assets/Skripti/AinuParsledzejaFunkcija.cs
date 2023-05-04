@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class AinuParsledzejaFunkcija : MonoBehaviour
 {
+    
 
     public void uzSakumu()
     {
@@ -28,4 +29,6 @@ public class AinuParsledzejaFunkcija : MonoBehaviour
     {
         SceneManager.LoadScene("Zens", LoadSceneMode.Single);
     }
+
+    
 }

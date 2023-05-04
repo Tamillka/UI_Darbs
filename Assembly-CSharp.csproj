@@ -49,7 +49,9 @@
      <Compile Include="Assets\Skripti\AinuParsledzejaFunkcija.cs" />
      <Compile Include="Assets\Skripti\ApgerbuParadisana.cs" />
      <Compile Include="Assets\Skripti\AttelaParadisana.cs" />
+     <Compile Include="Assets\Skripti\ButtonSwitcher.cs" />
      <Compile Include="Assets\Skripti\IzmeraMainisana.cs" />
+     <Compile Include="Assets\Skripti\ObjektuParvietosana.cs" />
      <Compile Include="Assets\Skripti\VardaParadisana.cs" />
      <None Include="Assets\Fonti\READ_BEFORE_ANY_USE.txt" />
  <Reference Include="UnityEngine.UI">
