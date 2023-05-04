@@ -1,5 +1,5 @@
 # UI_Darbs
-Projekts, kas ļauj izveidot savu varoni. Var izvēlēties ko apģerbt (meitene vai puisis), izdomāt vardu un vecumu savam cilvēkam, kā arī izvēlēties apēerbu un aksesuārus. 
+Projekts, kas ļauj izveidot savu varoni. Var izvēlēties ko apģerbt (meitene vai puisis), izdomāt vardu un vecumu savam cilvēkam, kā arī izvēlēties apēerbu un dažus aksesuārus. 
 
 
 ## Veicamo darbu saraksts:
