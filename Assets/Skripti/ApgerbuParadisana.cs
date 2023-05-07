@@ -9,14 +9,16 @@ public class ApgerbuParadisana : MonoBehaviour {
     public GameObject mainigaisAttels3;
     public GameObject mainigaisAttels4;
     public GameObject mainigaisAttels5;
-    // public GameObject izmSlaideris11;
-    //public GameObject izmSlaideris21;
+    public GameObject mainigaisAttels6;
+    public GameObject mainigaisAttels7;
+
     public Sprite[] kleitasMasivs;
     public Sprite[] krekliMasivs;
     public Sprite[] svarkiMasivs;
     public Sprite[] kostimiMasivs;
     public Sprite[] apaviMasivs;
-
+    public Sprite[] biksesMasivs;
+    public Sprite[] jakasMasivs;
     public void izkritosaisKleitas(int skaitlis) { 
         if (skaitlis == 0)
             mainigaisAttels1.GetComponent<Image>().sprite = kleitasMasivs[0];
@@ -69,6 +71,26 @@ public class ApgerbuParadisana : MonoBehaviour {
         else if (skaitlis == 2)
             mainigaisAttels5.GetComponent<Image>().sprite = apaviMasivs[2];
         else
+            Debug.Log("Nav piesaistīts attēls!");
+    }
+    public void izkritosaisBikses(int skaitlis)
+    {
+        if (skaitlis == 0)
+            mainigaisAttels6.GetComponent<Image>().sprite = biksesMasivs[0];
+        else if (skaitlis == 1)
+            mainigaisAttels6.GetComponent<Image>().sprite = biksesMasivs[1];
+        else if (skaitlis == 2)
+            mainigaisAttels6.GetComponent<Image>().sprite = biksesMasivs[2];
+        else
+            Debug.Log("Nav piesaistīts attēls!");
+    }
+    public void izkritosaisJakas(int skaitlis)
+    {
+        if (skaitlis == 0)
+            mainigaisAttels7.GetComponent<Image>().sprite = jakasMasivs[0];
+        else if (skaitlis == 1)
+            mainigaisAttels7.GetComponent<Image>().sprite = jakasMasivs[1];
+        else 
             Debug.Log("Nav piesaistīts attēls!");
     }
 

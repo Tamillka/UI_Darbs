@@ -14,6 +14,10 @@ public class AttelaParadisana : MonoBehaviour {
     public GameObject kostims;
     public GameObject apavi;
     public GameObject apavs;
+    public GameObject bikses;
+    public GameObject bikse;
+    public GameObject jakas;
+    public GameObject jaka;
     public GameObject korona;
     public GameObject palochka;
     public GameObject wings;
@@ -27,10 +31,16 @@ public class AttelaParadisana : MonoBehaviour {
     public GameObject pSlaiderisKo;
     public GameObject aSlaiderisA;
     public GameObject pSlaiderisA;
-    public GameObject slaiderisK;
-    public GameObject slaiderisP;
-    public GameObject slaiderisW;
-
+    public GameObject slaideris1;
+    public GameObject slaideris2;
+    public GameObject slaideris3;
+    public GameObject pSlaiderisB;
+    public GameObject aSlaiderisB;
+    public GameObject pSlaiderisJ;
+    public GameObject aSlaiderisJ;
+    public GameObject suns;
+    public GameObject bird;
+    public GameObject dino;
 
 
     public void kleitasPar(bool vertiba) { 
@@ -142,23 +152,92 @@ public class AttelaParadisana : MonoBehaviour {
         korona.SetActive(vertiba);
         palochka.SetActive(vertiba);
         wings.SetActive(vertiba);
-        slaiderisK.SetActive(vertiba);
-        slaiderisP.SetActive(vertiba);
-        slaiderisW.SetActive(vertiba);
+        slaideris1.SetActive(vertiba);
+        slaideris2.SetActive(vertiba);
+        slaideris3.SetActive(vertiba);
     }
     public void mainitLielumuK()
     {
-        float pasreizejaVartiba = slaiderisK.GetComponent<Slider>().value;
+        float pasreizejaVartiba = slaideris1.GetComponent<Slider>().value;
         korona.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
     }
     public void mainitLielumuP()
     {
-        float pasreizejaVartiba = slaiderisP.GetComponent<Slider>().value;
+        float pasreizejaVartiba = slaideris2.GetComponent<Slider>().value;
         palochka.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
     }
     public void mainitLielumuW()
     {
-        float pasreizejaVartiba = slaiderisW.GetComponent<Slider>().value;
+        float pasreizejaVartiba = slaideris3.GetComponent<Slider>().value;
         wings.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
+    }
+    public void biksesPar(bool vertiba)
+    {
+        bikses.SetActive(vertiba);
+        bikse.SetActive(vertiba);
+        aSlaiderisB.SetActive(vertiba);
+        pSlaiderisB.SetActive(vertiba);
+
+    }
+    public void mainitPlatumuB()
+    {
+        float pasreizejaVertiba = pSlaiderisB.GetComponent<Slider>().value;
+        float platums = bikse.transform.localScale.y;
+        Vector2 newScale = new Vector2(1f * pasreizejaVertiba, platums);
+        bikse.transform.localScale = newScale;
+    }
+    public void mainitAugstumuB()
+    {
+        float pasreizejaVertiba = aSlaiderisB.GetComponent<Slider>().value;
+        float augstums = bikse.transform.localScale.x;
+        Vector2 newScale = new Vector2(augstums, 1f * pasreizejaVertiba);
+        bikse.transform.localScale = newScale;
+    }
+    public void jakasPar(bool vertiba)
+    {
+        jakas.SetActive(vertiba);
+        jaka.SetActive(vertiba);
+        aSlaiderisJ.SetActive(vertiba);
+        pSlaiderisJ.SetActive(vertiba);
+
+    }
+    public void mainitPlatumuJ()
+    {
+        float pasreizejaVertiba = pSlaiderisJ.GetComponent<Slider>().value;
+        float platums = jaka.transform.localScale.y;
+        Vector2 newScale = new Vector2(1f * pasreizejaVertiba, platums);
+        jaka.transform.localScale = newScale;
+    }
+    public void mainitAugstumuJ()
+    {
+        float pasreizejaVertiba = aSlaiderisJ.GetComponent<Slider>().value;
+        float augstums = jaka.transform.localScale.x;
+        Vector2 newScale = new Vector2(augstums, 1f * pasreizejaVertiba);
+        jaka.transform.localScale = newScale;
+    }
+    public void dzivniekiPar(bool vertiba)
+    {
+        suns.SetActive(vertiba);
+        bird.SetActive(vertiba);
+        dino.SetActive(vertiba);
+        slaideris1.SetActive(vertiba);
+        slaideris2.SetActive(vertiba);
+        slaideris3.SetActive(vertiba);
+    }
+
+    public void mainitLielumuSu()
+    {
+        float pasreizejaVartiba = slaideris1.GetComponent<Slider>().value;
+        suns.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
+    }
+    public void mainitLielumuBi()
+    {
+        float pasreizejaVartiba = slaideris2.GetComponent<Slider>().value;
+        bird.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
+    }
+    public void mainitLielumuD()
+    {
+        float pasreizejaVartiba = slaideris3.GetComponent<Slider>().value;
+        dino.transform.localScale = new Vector2(1f * pasreizejaVartiba, 1f * pasreizejaVartiba);
     }
 }

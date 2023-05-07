@@ -22,5 +22,13 @@ public class VardaParadisana : MonoBehaviour
          
             
     }
+    public void UzglabaTekstu2()
+    {
+        teksts = ievadesLauksVards.GetComponent<InputField>().text;
+        str = int.Parse(ievadesLauksVecums.GetComponent<InputField>().text);
+        tekstaAttelosana.GetComponent<Text>().text = "Sī varoņa vārds ir " + teksts.ToUpper() + " un viņa vecums ir " + str + ". \n";
+
+    }
+
 
 }

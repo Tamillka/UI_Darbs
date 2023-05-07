@@ -19,8 +19,8 @@ public class IzmeraMainisana : MonoBehaviour {
     public void mainitAugstumu()
     {
         float pasreizejaVertiba = izmSlaideris2.GetComponent<Slider>().value;
-        float platum = mainigaisAttels.transform.localScale.x;
-        Vector2 newScale = new Vector2(platum, 1f * pasreizejaVertiba);
+        float platums = mainigaisAttels.transform.localScale.x;
+        Vector2 newScale = new Vector2(platums, 1f * pasreizejaVertiba);
         mainigaisAttels.transform.localScale = newScale;
     }
 }
