@@ -11,6 +11,7 @@ public class VardaParadisana : MonoBehaviour
     public GameObject ievadesLauksVards;
     public GameObject ievadesLauksVecums;
     public GameObject tekstaAttelosana;
+    public GameObject tekstaAttelosana2;
 
     public void UzglabaTekstu()
     {
@@ -26,8 +27,7 @@ public class VardaParadisana : MonoBehaviour
     {
         teksts = ievadesLauksVards.GetComponent<InputField>().text;
         str = int.Parse(ievadesLauksVecums.GetComponent<InputField>().text);
-        tekstaAttelosana.GetComponent<Text>().text = "Sī varoņa vārds ir " + teksts.ToUpper() + " un viņa vecums ir " + str + ". \n";
-
+        tekstaAttelosana2.GetComponent<Text>().text = "Sī varoņa vārds ir " + teksts.ToUpper() + " un viņa vecums ir " + str + ". \nSim varonim piemit superspeja - vina dzivnieki, kuri sarga dzivibu un jut visu tapat ka cilveks, attiecigi raksturs ir 2x specigaks.";
     }
 
 

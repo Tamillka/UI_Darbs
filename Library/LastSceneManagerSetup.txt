@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ainas/Meitene.unity
+- path: Assets/Ainas/Zens.unity
   isLoaded: 1
   isActive: 1
