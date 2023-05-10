@@ -1,0 +1,70 @@
+Initialize engine version: 5.5.6f1 (3fb31a95adee)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc8)
+    Vendor:   Intel
+    VRAM:     4183 MB
+    Driver:   30.0.101.1273
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.302 seconds
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\2PT-2\Desktop\UI_Darbs\Release_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.086700 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.027300 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 359.
+Total: 1.892200 ms (FindLiveObjects: 0.014200 ms CreateObjectMapping: 0.008000 ms MarkObjects: 0.178700 ms  DeleteObjects: 1.686800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.240300 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1069.
+Total: 0.478000 ms (FindLiveObjects: 0.027700 ms CreateObjectMapping: 0.011600 ms MarkObjects: 0.430700 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.046100 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 362.
+Total: 2.069100 ms (FindLiveObjects: 0.018400 ms CreateObjectMapping: 0.007600 ms MarkObjects: 0.167400 ms  DeleteObjects: 1.875500 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.781400 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 954.
+Total: 0.846000 ms (FindLiveObjects: 0.042900 ms CreateObjectMapping: 0.028300 ms MarkObjects: 0.761300 ms  DeleteObjects: 0.013000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.642400 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 363.
+Total: 1.762000 ms (FindLiveObjects: 0.017000 ms CreateObjectMapping: 0.008300 ms MarkObjects: 0.171300 ms  DeleteObjects: 1.565100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.267900 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 302.
+Total: 0.140400 ms (FindLiveObjects: 0.010800 ms CreateObjectMapping: 0.006300 ms MarkObjects: 0.114800 ms  DeleteObjects: 0.008200 ms)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 1390 -> priority: 1 
+  Thread -> id: 1268 -> priority: 1 
+  Thread -> id: 4d10 -> priority: 1 
