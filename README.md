@@ -5,14 +5,15 @@ Projekts, kas ļauj izveidot savu varoni. Var izvēlēties ko apģerbt (meitene 
 
 ## Veicamo darbu saraksts:
 - [x] Input field lietojums
-- [x] Button elementa lietojums
-- [x] Image elementu lietojums
-- [x] C# skriptu izveide un piesaiste objektiem
-- [x] Toggle elementu lietojums
-- [x] Drop Down elementa lietojums
-- [x] Slider elementu lietojums
-- [x] Scroll wiev lietosana
-- [x] Drag and Drop funkcionalitates ieviesana
+- [x] Button elementu lietojums
+- [x] Vairaku Image elementu lietojums
+- [x] C# skriptu piesaiste objektiem
+- [x] Ar Toggle elementiem iesledz 
+- [x] Drop Down elementa lietojums, kura var izveleties pogas
+- [x] Slider elementu lietojums(augstums un platums atseviski)
+- [x] Scroll wiev lietosana un taja paradas ievaditais lietotajam teksts
+- [x] Varonu apraksts 
+- [x] Drag and Drop funkcionalitates lietojums, lai apgerbtu varoni
 - [x] Parslegsanas starp ainam
-- [ ] Audio source integresana aina
-- [ ] Projekta sagatavosana darbinasanai no darbavirsmas (.exe)
+- [x] Fona muzika
+- [x] Projekta sagatavosana darbinasanai no darbavirsmas (.exe)
